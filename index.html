@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Client</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;500&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #181818;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 1rem;
+      transition: transform 0.4s ease;
+    }
+
+    .logo:hover {
+      transform: rotate(-10deg) scale(1.1);
+    }
+
+    h1 {
+      font-family: 'Fredoka One', cursive;
+      font-size: 3rem;
+      margin: 0.5rem 0;
+      color: #ffcc00;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #cccccc;
+    }
+
+    .download-btn {
+      text-decoration: none;
+      background: #ff4500;
+      color: #ffffff;
+      padding: 15px 40px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: all 0.3s;
+      box-shadow: 0 5px 15px rgba(255,69,0,0.4);
+    }
+
+    .download-btn:hover {
+      background: #ff661a;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(255,102,26,0.5);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src="Meme-Client-Logo.png" alt="Meme Client Logo">
+  <h1>Meme Client</h1>
+  <p>Newest Minecraft client for 1.21.1</p>
+  <a class="download-btn" href="https://github.com/sigmaboy-meme-client/MEME-CLIENT" target="_blank">Download</a>
+  <footer>© 2025 - Meme Client</footer>
+</body>
+</html>
+
+
+
+
