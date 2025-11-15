@@ -45,15 +45,20 @@
       color: #cccccc;
     }
 
-    .download-btn {
+    .download-btn, .discord-btn {
+      display: inline-block;
       text-decoration: none;
-      background: #ff4500;
-      color: #ffffff;
       padding: 15px 40px;
       border-radius: 12px;
       font-weight: bold;
       font-size: 1.1rem;
       transition: all 0.3s;
+      margin: 10px 0;
+    }
+
+    .download-btn {
+      background: #ff4500;
+      color: #ffffff;
       box-shadow: 0 5px 15px rgba(255,69,0,0.4);
     }
 
@@ -61,6 +66,18 @@
       background: #ff661a;
       transform: translateY(-3px);
       box-shadow: 0 8px 20px rgba(255,102,26,0.5);
+    }
+
+    .discord-btn {
+      background: #5865F2;
+      color: #ffffff;
+      box-shadow: 0 5px 15px rgba(88,101,242,0.4);
+    }
+
+    .discord-btn:hover {
+      background: #4752C4;
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(71,82,196,0.5);
     }
 
     footer {
@@ -75,10 +92,16 @@
   <img class="logo" src="Meme-Client-Logo.png" alt="Meme Client Logo">
   <h1>Meme Client</h1>
   <p>Newest Minecraft client for 1.21.1</p>
-  <a class="download-btn" href="https://github.com/sigmaboy-meme-client/MEME-CLIENT" target="_blank">Download</a>
+  
+  <a class="download-btn" href="https://github.com/sigmaboy-meme-client/meme-client" target="_blank">Download</a>
+  
+  <!-- Discord Button -->
+  <a class="discord-btn" href="https://discord.gg/VSpEbBAxBB" target="_blank">Join Our Discord</a>
+  
   <footer>© 2025 - Meme Client</footer>
 </body>
 </html>
+
 
 
 
